@@ -20,4 +20,7 @@ const Tab = props => {
 };
 
 // Make sure you include PropTypes on your props.
+Tab.PropTypes = {
+  tab: PropTypes.string
+};
 export default Tab;
